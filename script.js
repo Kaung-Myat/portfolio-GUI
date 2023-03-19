@@ -25,30 +25,14 @@ function about() {
            <h1>I'm Kaung Myat Thu.I'm from Sittwe and</h1>
            <h1>Brilliant learner in Computer Science Field.</h1>
            <div class="mt-4">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reprehenderit, quisquam omnis ad
-                   adipisci ea suscipit repellat magni nihil saepe sed in, qui nisi architecto tempora eos
-                   libero illum excepturi!
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vero optio, minima, in
-                   hic, beatae omnis sequi eum facilis sint repudiandae sunt! Cupiditate dolorem nemo maxime
-                   sed aliquid omnis quae!
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam similique mollitia
-                   voluptatibus? Voluptate voluptatem officia enim! Eaque quis repellat eligendi dolore ut?
-                   Fugit eos labore similique ullam velit soluta.
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur tempore voluptatum
-                   dolorum provident consequuntur qui ab iure et ad aspernatur aliquam in ex sed, excepturi
-                   eaque repellat dolorem voluptatibus.
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reprehenderit, quisquam omnis ad
-                   adipisci ea suscipit repellat magni nihil saepe sed in, qui nisi architecto tempora eos
-                   libero illum excepturi!
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vero optio, minima, in
-                   hic, beatae omnis sequi eum facilis sint repudiandae sunt! Cupiditate dolorem nemo maxime
-                   sed aliquid omnis quae!
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam similique mollitia
-                   voluptatibus? Voluptate voluptatem officia enim! Eaque quis repellat eligendi dolore ut?
-                   Fugit eos labore similique ullam velit soluta.
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur tempore voluptatum
-                   dolorum provident consequuntur qui ab iure et ad aspernatur aliquam in ex sed, excepturi
-                   eaque repellat dolorem voluptatibus.
+               <p>
+               I'm Kaung Myat Thu and waiting to join Second Year in Computer Universiy Sittwe.I was in Sittwe and I passed
+               the matriculation exam at BEHS 1,Sittwe.After matriculation exam, I started joined Programming class at Ray Hub Academy Sittwe.
+               After joining this class, I learned Java in Pro Logic IT training Center Sittwe for about 4 months.In the covid 19 crisis time,
+               I joined free Web development class in Data Land Technology online.But I didn't get what I thought so I study web development as 
+               self study and I am waiting to open advanced class in Ray Hub Academy.Now,I am preparing for Final Group Project in Ray Hub.
+               This is portal and mobile project.This will be written with Express JS , EJS and used My SQL as a DataBase.For Front-end, bootstrap and 
+               JQuery.In mobile, this will be written with Flutter.Project name is Sittwe Market Place (SMP) and we intend to be a good shopping system.
                </p>
            </div>
        </div>
@@ -107,7 +91,29 @@ function home() {
             <div class="card-body">
                 <h4 class="card-title">IT Canteen Booking Project</h4>
                 <p class="card-text">I made this for IT Cantenn.IT Canteen is a organization from University of Computer Studited Sittwe.This is prented to get more IT knowledge.I create this Express JS,EJS and as a database MongoDB.I used Bootstrap as a front-end framework.</p>
-                    <a href="https://github.com/Kaung-Myat/Booking-Project" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Face-Detection</span></a>
+                    <a href="https://github.com/Kaung-Myat/Booking-Project" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Booking-Project</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4 mb-md-4 ">
+        <div class="card blogs">
+            <div class="card-body">
+                <h4 class="card-title">Portfolio GUI</h4>
+                <p class="card-text">This is my portfolio GUI and I created this and another is portfolio CLI.</p>
+                <a href="https://github.com/Kaung-Myat/portfolio-GUI"
+                class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span
+                class="me-2">https://github.com/Kaung-Myat/portfolio-GUI</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4 mb-md-4 ">
+            <div class="card blogs">
+                <div class="card-body">
+                    <h4 class="card-title">Portfolio CLI</h4>
+                    <p class="card-text">This is my portfolio CLI and I created this with Boostrap and JQuery.</p>
+                    <a href="https://github.com/Kaung-Myat/portfolio-CLI"
+                    class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span
+                    class="me-2">https://github.com/Kaung-Myat/portfolio-CLI</span></a>
             </div>
         </div>
     </div>
@@ -152,7 +158,29 @@ function projects() {
             <div class="card-body">
                 <h4 class="card-title">IT Canteen Booking Project</h4>
                 <p class="card-text">I made this for IT Cantenn.IT Canteen is a organization from University of Computer Studited Sittwe.This is prented to get more IT knowledge.I create this Express JS,EJS and as a database MongoDB.I used Bootstrap as a front-end framework.</p>
-                    <a href="https://github.com/Kaung-Myat/Booking-Project" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Face-Detection</span></a>
+                    <a href="https://github.com/Kaung-Myat/Booking-Project" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Booking-Project</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4 mb-md-4 ">
+        <div class="card blogs">
+            <div class="card-body">
+                <h4 class="card-title">Portfolio GUI</h4>
+                <p class="card-text">This is my portfolio GUI and I created this and another is portfolio CLI.</p>
+                <a href="https://github.com/Kaung-Myat/portfolio-GUI"
+                class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span
+                class="me-2">https://github.com/Kaung-Myat/portfolio-GUI</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4 mb-md-4 ">
+            <div class="card blogs">
+                <div class="card-body">
+                    <h4 class="card-title">Portfolio CLI</h4>
+                    <p class="card-text">This is my portfolio CLI and I created this with Boostrap and JQuery.</p>
+                    <a href="https://github.com/Kaung-Myat/portfolio-CLI"
+                    class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span
+                    class="me-2">https://github.com/Kaung-Myat/portfolio-CLI</span></a>
             </div>
         </div>
     </div>
