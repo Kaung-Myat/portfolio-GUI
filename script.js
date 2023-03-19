@@ -26,7 +26,7 @@ function about() {
            <h1>Brilliant learner in Computer Science Field.</h1>
            <div class="mt-4">
                <p>
-               I'm Kaung Myat Thu and waiting to join Second Year in Computer Universiy Sittwe.I was in Sittwe and I passed
+               I'm Kaung Myat Thu and waiting to join Second Year in Computer Universiy Sittwe.I was born in Sittwe and I passed
                the matriculation exam at BEHS 1,Sittwe.After matriculation exam, I started joined Programming class at Ray Hub Academy Sittwe.
                After joining this class, I learned Java in Pro Logic IT training Center Sittwe for about 4 months.In the covid 19 crisis time,
                I joined free Web development class in Data Land Technology online.But I didn't get what I thought so I study web development as 
