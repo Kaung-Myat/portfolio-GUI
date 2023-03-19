@@ -90,7 +90,7 @@ function home() {
         <div class="card blogs">
             <div class="card-body">
                 <h4 class="card-title">IT Canteen Booking Project</h4>
-                <p class="card-text">I made this for IT Cantenn.IT Canteen is a organization from University of Computer Studited Sittwe.This is prented to get more IT knowledge.I create this Express JS,EJS and as a database MongoDB.I used Bootstrap as a front-end framework.</p>
+                <p class="card-text">I made this for IT Canteen.IT Canteen is an organization from University of Computer Studited Sittwe.This is pretend to get more IT knowledge.I created this Express JS,EJS and as a database MongoDB.I used Bootstrap as a front-end framework.</p>
                     <a href="https://github.com/Kaung-Myat/Booking-Project" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Booking-Project</span></a>
             </div>
         </div>
@@ -157,7 +157,7 @@ function projects() {
         <div class="card blogs">
             <div class="card-body">
                 <h4 class="card-title">IT Canteen Booking Project</h4>
-                <p class="card-text">I made this for IT Cantenn.IT Canteen is a organization from University of Computer Studited Sittwe.This is prented to get more IT knowledge.I create this Express JS,EJS and as a database MongoDB.I used Bootstrap as a front-end framework.</p>
+                <p class="card-text">I made this for IT Canteen.IT Canteen is an organization from University of Computer Studied Sittwe.This is pretend to get more IT knowledge.I created this Express JS,EJS and as a database MongoDB.I used Bootstrap as a front-end framework.</p>
                     <a href="https://github.com/Kaung-Myat/Booking-Project" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Booking-Project</span></a>
             </div>
         </div>
