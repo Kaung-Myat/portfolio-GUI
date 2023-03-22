@@ -1,4 +1,5 @@
 var mainPart = document.getElementById("mainPart");
+var blogMain = document.getElementById("blogMain");
 
 function about() {
     mainPart.innerHTML = `
@@ -192,3 +193,28 @@ function projects() {
 </div>
     `;
 }
+
+function blogs() {
+    mainPart.innerHTML = `
+    <div class="">
+                <h1>Here is my Blogs!!</h1>
+            </div>
+            <div class="w-75 mt-4 text">
+                <p>This is my blogs and you can read my blogs here!</p>
+            </div>
+            <div class="row" style="margin-top: 10%;">
+                <div class="col-md-6 mb-4  mb-md-4 ">
+                    <div class="card blogs">
+                        <div class="card-body">
+                            <a href="./blogs.Ui.html" class="blogUI">
+                                <h5 class="card-title mb-3">Bootstrap ဆိုစွာ ဇာချင့်လဲ?</h5>
+                            <p class="card-text">Bootstrap ဆိုစွာ ဇာလေ ဆိုရေ အကြောင်းကို ဖတ်ရှုလို့ရပါဗျာယ်။ Hope you
+                                enjoy this...</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    `;
+}
+
