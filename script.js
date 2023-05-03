@@ -1,5 +1,8 @@
 var mainPart = document.getElementById("mainPart");
 var blogMain = document.getElementById("blogMain");
+var blogPart = document.getElementById('blogPart')
+
+
 
 function about() {
     mainPart.innerHTML = `
@@ -196,25 +199,54 @@ function projects() {
 
 function blogs() {
     mainPart.innerHTML = `
-    <div class="">
-                <h1>Here is my Blogs!!</h1>
-            </div>
-            <div class="w-75 mt-4 text">
-                <p>This is my blogs and you can read my blogs here!</p>
-            </div>
-            <div class="row" style="margin-top: 10%;">
+                    <div class="">
+                        <h1>Here is my Blogs!!</h1>
+                    </div>
+                    <div class="w-75 mt-4 text">
+                        <p>This is my blogs and you can read my blogs here!</p>
+                    </div>
+                    
+                    <div class="row" style="margin-top: 5%;">
+                        <div id = "blogPart">
+                        </div>
+                    </div>
+    `;
+    fetch("https://portfolio-adminpanel-kaung-myat-ch2o.onrender.com/api/blogs")
+        .then(res => res.json())
+        .then(result => {
+            var server_url = "https://portfolio-adminpanel-kaung-myat-ch2o.onrender.com";
+            for (var i = 0; i < result.data.length; i++) {
+                document.getElementById("blogPart").innerHTML += `
                 <div class="col-md-6 mb-4  mb-md-4 ">
                     <div class="card blogs">
                         <div class="card-body">
-                            <a href="./blogs.Ui.html" class="blogUI">
-                                <h5 class="card-title mb-3">Bootstrap ဆိုစွာ ဇာချင့်လဲ?</h5>
-                            <p class="card-text">Bootstrap ဆိုစွာ ဇာလေ ဆိုရေ အကြောင်းကို ဖတ်ရှုလို့ရပါဗျာယ်။ Hope you
-                                enjoy this...</p>
+                            <p style="color:#808080">${result.data[i].created_At}</p>
+                            <a class="blogUI" data-bs-toggle="modal" data-bs-target="#blog${result.data[i].id}">
+                                <h5 class="card-title mb-3">${result.data[i].title}</h5>
+                            <p class="card-text">${result.data[i].short_desc}</p>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-    `;
+
+                <div class="modal fade" id="blog${result.data[i].id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <img src=" ${server_url.concat(result.data[i].img)}" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-3">${result.data[i].title}</h5>
+                                        <p class="card-text mt-2">${result.data[i].desc}</p>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `
+            }
+
+        })
 }
 
