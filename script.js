@@ -143,7 +143,7 @@ function projects() {
         <div class="card blogs">
             <div class="card-body">
                 <h4 class="card-title">Rakhine Quizzes Game</h4>
-                <p class="card-text">I made this one to show as a little project in Ray Hub.This is not responsive and you should check with you laptop or desktop.</p>
+                <p class="card-text">I made this one to show as a little project in Ray Hub.This is not responsive and you should check with your laptop or desktop.</p>
                     <a href="https://github.com/Kaung-Myat/Rakine_Quiz_game" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Rakine_Quiz_game</span></a>
             </div>
         </div>
@@ -152,7 +152,7 @@ function projects() {
         <div class="card blogs">
             <div class="card-body">
                 <h4 class="card-title">Face Detection</h4>
-                <p class="card-text">I made this one to practise JavaScript and I use some liberies for this project.</p>
+                <p class="card-text">I made this one to practise JavaScript and I used some liberies for this project.</p>
                     <a href="https://github.com/Kaung-Myat/Face-Detection" class="text-decoration-none articleText"><i class="fa-solid fa-link me-1"></i><span class="me-2">https://github.com/Kaung-Myat/Face-Detection</span></a>
             </div>
         </div>
