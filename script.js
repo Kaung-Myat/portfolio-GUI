@@ -30,13 +30,12 @@ function about() {
            <h1>Brilliant learner in Computer Science Field.</h1>
            <div class="mt-4">
                <p>
-               I'm Kaung Myat Thu and waiting to join Second Year in Computer Universiy Sittwe.I was born in Sittwe and I passed
+               I'm Kaung Myat Thu and Second Year in Computer Universiy Sittwe.I was born in Sittwe and I passed
                the matriculation exam at BEHS 1,Sittwe.After matriculation exam, I started joined Programming class at Ray Hub Academy Sittwe.
                After joining this class, I learned Java in Pro Logic IT training Center Sittwe for about 4 months.In the covid 19 crisis time,
                I joined free Web development class in Data Land Technology online.But I didn't get what I thought so I study web development as 
-               self study and I am waiting to open advanced class in Ray Hub Academy.Now,I am preparing for Final Group Project in Ray Hub.
-               This is portal and mobile project.This will be written with Express JS , EJS and used My SQL as a DataBase.For Front-end, bootstrap and 
-               JQuery.In mobile, this will be written with Flutter.Project name is Sittwe Market Place (SMP) and we intend to be a good shopping system.
+               self study and I am waiting to open advanced class in Ray Hub Academy.Now,I am joing OJT as a Mobile Developer with Fluttter in Ray Hub and
+               I must try the best.
                </p>
            </div>
        </div>
@@ -57,11 +56,10 @@ function home() {
     <h1>and Computer Science Student</h1>
 </div>
 <div class="w-75 mt-4 text">
-    <p>I'm Kaung Myat Thu, 1st year of Computer Science Student from <a
+    <p>I'm Kaung Myat Thu, 2nd year of Computer Science Student from <a
             href="https://lms.ucssittway.edu.mm/" class="text-decoration-none uniText"
             style="color: rgb(255, 170, 11)">University Of Computer Studied Sittwe.</a></p>
-    <p>Aside Knowledge from University,I'm currently learning Mobile Development with Flutter and Web
-        Development with NodeJs in Ray Hub Academy Sittwe.</p>
+    <p>Aside Knowledge from University,I'm currently Joining OJT as a Mobile Developer with Flutter in Ray Hub Academy Sittwe.</p>
 </div>
 <div class="mt-3">
     <a href="https://github.com/Kaung-Myat"><i class="fa-brands fa-github me-4 fs-4 socialIco"></i></a>
